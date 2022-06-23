@@ -125,6 +125,7 @@ int main(int argc, char** argv)
   while(true){
 
     // Get the pressed key
+    string 
     key = getch();
 
     // If the key corresponds to a key in moveBindings

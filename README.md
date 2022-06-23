@@ -11,3 +11,9 @@ sudo apt-get install ros-noetic-husky-simulator
 ```
 export HUSKY_GAZEBO_DESCRIPTION=$(rospack find husky_gazebo)/urdf/description.gazebo.xacro
 ```
+`Note:` You need to setup this environmental if you use this again in new terminal.
+
+## Run the simulation
+```
+roslaunch husky_gazebo husky_playpen.launch
+```
